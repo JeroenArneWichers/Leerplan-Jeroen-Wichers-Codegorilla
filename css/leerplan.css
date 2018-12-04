@@ -1,0 +1,250 @@
+.header{
+   // background-color: red;
+    background-image: url("../images/Rome1.jpg");
+    height: 800px;
+    width: auto; 
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    //margin-bottom: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding-left: 120px;
+    border-bottom: 2px solid #3C3942;
+}
+
+.introductie{
+    width:75%;
+    padding-left: 220px;
+    font-family: 'Special Elite', cursive;
+    padding-top: 50px;
+}
+
+.checklistvereistevaardighedenenskills{
+    width:75%;
+    padding-left: 220px;
+    font-family: 'Special Elite', cursive;
+    padding-top: 50px;
+}
+
+.Frontenddevelopment{
+    float: left;
+    width: 25%;
+    padding-left: 25%;
+    font-family: 'Special Elite', cursive;
+    padding-top: 50px;
+    background-image: url("../images/Romepillaar.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: -40px;
+}
+
+.Backenddevelopment{
+    float: left;
+    clear: right;
+    width: 25%;
+    padding-left: 120px;
+    font-family: 'Special Elite', cursive;
+    padding-top: 50px;
+    background-image: url("../images/Romepillaar.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: -40px;
+}
+
+.generaldevelopment{
+    float: left;
+    clear: left;
+    width: 25%;
+    padding-left: 25%;
+    font-family: 'Special Elite', cursive;
+    background-image: url("../images/Romepillaar.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: -40px;
+}
+
+.softskills{
+    float: left;
+    clear: right;
+    width: 25%;
+    padding-left: 120px;
+    font-family: 'Special Elite', cursive;
+    padding-bottom: 50px;
+    background-image: url("../images/Romepillaar.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: -40px;
+}
+
+.vaardighedeninhetwerkterrein{
+    clear: both;
+    width: 75%;
+    padding-left: 220px;
+    font-family: 'Special Elite', cursive;
+    padding-top: 50px;
+}
+
+footer{
+    background-color:#C8985B;
+    height: 100px;
+    width: 100%;
+   // margin-bottom: 8px;
+  //  margin-left: -8px;
+   // margin-right: -8px;
+    padding-left: 120px;
+   // padding-bottom: 80px;
+    text-align: center;
+    clear: both;
+    border-top: 2px solid #3C3942;
+    font-family: 'Special Elite', cursive;
+}
+
+.sidenav{
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    background-color: #C65738;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 200px;
+    color:white;
+    border-right: 2px solid #3C3942;
+    font-family: 'Special Elite', cursive;
+    overflow-x: hidden;
+}
+
+.sidenav a, .dropdown-btn{
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    text-decoration: none;
+    color: #3C3942;
+    display: block;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.sidenav a:hover, .dropdown-btn:hover{
+    color: #F7F2F3;
+}
+
+.introductiechecklist{
+    width:75%;
+    padding-left: 120px;    
+}
+
+.concretestappen{
+	clear: both;
+    padding-left: 220px;
+    width:75%;
+    font-family: 'Special Elite', cursive;
+    padding-top: 50px;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    padding-left: 220px;
+    padding-top: -200px;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #C65738;
+    color: #3C3942;
+    font-size: 16px;
+    padding: 12px 240px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    //background-color: #3C3942;
+    box-shadow: 0 0 50px #3C3942
+  }
+
+  .headertext{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 80px;
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      animation-name: fadeInOut;
+      animation-delay: 0.0s;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+      font-family: 'Permanent Marker', cursive;
+	  color: black;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0%;
+    }
+  }
+
+  #Romanbridge > img{
+    width: 1500px;
+    height: 233px;
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+   // padding-right: 200px;
+  }
+
+  .meter { 
+	height: 20px;  /* Can be anything */
+	position: relative;
+	background: #555;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #C65738;
+    position: relative;
+    overflow: hidden;
+  }
